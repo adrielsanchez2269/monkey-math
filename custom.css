@@ -1,0 +1,27 @@
+body {
+  background-image: url('img/wallpaper.png');
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 70%;
+}
+
+
+#logo-col {
+  border-radius: 1.5rem;
+  background-color: #168e56;
+}
+
+.flex-item {
+  border: 1px solid;
+  margin: 0.25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/*# sourceMappingURL=bootstrap.css.map */
