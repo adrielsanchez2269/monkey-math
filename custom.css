@@ -9,13 +9,15 @@ body {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 70%;
+  width: 100%;
 }
 
 
 #logo-col {
   border-radius: 1.5rem;
   background-color: #168e56;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .flex-item {
@@ -24,4 +26,55 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 }
-/*# sourceMappingURL=bootstrap.css.map */
+
+.main-content-frame {
+  background-color: white;
+  border: 4px solid;
+  border-radius: 1.25rem;
+  padding: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  position: relative;
+  min-height: 12.5rem;
+}
+
+.banana2 {
+  position: absolute;
+  height: 4rem;
+  width: 13rem;
+  bottom: -10px;
+  right: 0;
+  z-index: -1;
+}
+
+.banana-link {
+  justify-self: end;
+}
+
+.nav-row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin-bottom: 1rem;
+}
+
+.nav-row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.banana-nav {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.offset-1p {
+  margin-left: 1%;
+}
