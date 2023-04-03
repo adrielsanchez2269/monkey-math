@@ -36,13 +36,13 @@ body {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   position: relative;
-  min-height: 13.35rem;
+  min-height: 16.35rem;
 }
 
 .banana {
   position: absolute;
   height: 4rem;
-  width: 13rem;
+  width: 15rem;
   bottom: -10px;
   right: 0;
   z-index: -1;
@@ -105,4 +105,47 @@ body {
 }
 .offset-auto {
   margin-left: auto;
+}
+
+#calculator-frame {
+  width: 350px;
+  height: 500px;
+  background-color:rgb(241, 234, 38);
+  border-radius: 2rem;
+  position: absolute;
+  margin-left: 25%;
+  border: solid 5px;
+}
+
+.main-content-frame-calculator {
+  background-color: white;
+  border: 4px solid;
+  border-radius: 1.25rem;
+  padding: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  position: relative;
+  min-height: 36rem;
+}
+
+#calculator-screen {
+  background-color: white;
+  border-radius: 0.4rem;
+  min-height: 4rem;
+  font-size: 2.75rem;
+}
+
+#calculator-name {
+  background-color: green;
+  border-radius: 1rem;
+  min-height: 2rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.calculator-button {
+  height: 3rem;
+  width: 4rem;
+  background-color: green;
+  border-radius: 2rem;
 }
