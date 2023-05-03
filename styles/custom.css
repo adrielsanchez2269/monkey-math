@@ -148,4 +148,9 @@ body {
   width: 4rem;
   background-color: green;
   border-radius: 2rem;
+  font-size: 1.75rem;
+}
+
+#clear {
+  font-size: 1rem;
 }
